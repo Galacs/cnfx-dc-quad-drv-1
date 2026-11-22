@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "aef79a18-e7b7-40da-91e1-60d9e010fbd4")
 	(paper "A4")
+	(title_block
+		(title "CNFX DC Quad Driver 1")
+		(date "2026-11-22")
+		(rev "01")
+		(company "Valrobotik")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names

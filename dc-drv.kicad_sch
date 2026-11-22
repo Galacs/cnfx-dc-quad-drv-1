@@ -5,10 +5,10 @@
 	(uuid "30b0d1ef-d44c-479a-86a4-a4ce00f1c791")
 	(paper "A4")
 	(title_block
-		(title "CNFX DEV DC Driver 1")
-		(date "2026-04-11")
+		(title "CNFX DC Quad Driver 1")
+		(date "2026-11-22")
 		(rev "01")
-		(company "Rémi Ait-Younes")
+		(company "Valrobotik")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
