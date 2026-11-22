@@ -287,28 +287,28 @@
     },
     "net_colors": {},
     "netclass_assignments": {
-      "/DC Driver/IN1": [
+      "/IN1_0": [
         "PWM"
       ],
-      "/DC Driver/IN2": [
+      "/IN1_1": [
         "PWM"
       ],
-      "/DC Driver1/IN1": [
+      "/IN1_2": [
         "PWM"
       ],
-      "/DC Driver1/IN2": [
+      "/IN1_3": [
         "PWM"
       ],
-      "/DC Driver2/IN1": [
+      "/IN2_0": [
         "PWM"
       ],
-      "/DC Driver2/IN2": [
+      "/IN2_1": [
         "PWM"
       ],
-      "/DC Driver3/IN1": [
+      "/IN2_2": [
         "PWM"
       ],
-      "/DC Driver3/IN2": [
+      "/IN2_3": [
         "PWM"
       ]
     },
