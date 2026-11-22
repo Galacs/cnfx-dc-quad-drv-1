@@ -286,7 +286,32 @@
       "version": 5
     },
     "net_colors": {},
-    "netclass_assignments": {},
+    "netclass_assignments": {
+      "/DC Driver/IN1": [
+        "PWM"
+      ],
+      "/DC Driver/IN2": [
+        "PWM"
+      ],
+      "/DC Driver1/IN1": [
+        "PWM"
+      ],
+      "/DC Driver1/IN2": [
+        "PWM"
+      ],
+      "/DC Driver2/IN1": [
+        "PWM"
+      ],
+      "/DC Driver2/IN2": [
+        "PWM"
+      ],
+      "/DC Driver3/IN1": [
+        "PWM"
+      ],
+      "/DC Driver3/IN2": [
+        "PWM"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -430,13 +455,29 @@
         "uuid": "aef79a18-e7b7-40da-91e1-60d9e010fbd4"
       }
     ],
-    "used_designators": "#FLG1-2,#PWR1-24,#PWR27-29,#PWR31-32,#PWR50,C1-5,C8,C13,D1-9,FID1-3,H1-7,J1-4,JP1-4,R1-5,SW1-3,TP1-3,U1-3",
+    "used_designators": "#FLG1-2,#PWR1-24,#PWR27-29,#PWR31-32,#PWR40-60,C1-5,C8,C13,C18-29,D1-9,FID1-3,H1-7,J1-4,J6-9,JP1-4,R1-5,SW1-3,TP1-3,U1-3,U5-8",
     "variants": []
   },
   "sheets": [
     [
       "aef79a18-e7b7-40da-91e1-60d9e010fbd4",
       "Root"
+    ],
+    [
+      "0ca40a1a-5c1b-454b-8633-493acb29f765",
+      "DC Driver"
+    ],
+    [
+      "a6a99bf9-912b-4a4b-bfcc-d6f5828e45bb",
+      "DC Driver1"
+    ],
+    [
+      "842840e9-da08-40ef-bdd1-719773fb5b13",
+      "DC Driver2"
+    ],
+    [
+      "aa2c2548-8674-4401-a7ea-1722f8f03373",
+      "DC Driver3"
     ]
   ],
   "text_variables": {},

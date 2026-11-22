@@ -13375,6 +13375,314 @@
 			)
 		)
 	)
+	(sheet
+		(at 255.27 97.79)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0ca40a1a-5c1b-454b-8633-493acb29f765")
+		(property "Sheetname" "DC Driver"
+			(at 255.27 97.0784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dc-drv.kicad_sch"
+			(at 255.27 108.5346 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "~{SLEEP}" input
+			(at 255.27 100.33 180)
+			(uuid "f28b2463-8dfe-4562-a9e8-88c9cd85e858")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN1" input
+			(at 255.27 102.87 180)
+			(uuid "484a469f-86b6-48e5-b2a7-a25dc3597539")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN2" input
+			(at 255.27 105.41 180)
+			(uuid "f6af26ca-d022-46cb-86cb-563397872445")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "cnfx-dc-quad-drv-1"
+				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 255.27 125.73)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "842840e9-da08-40ef-bdd1-719773fb5b13")
+		(property "Sheetname" "DC Driver2"
+			(at 255.27 125.0184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dc-drv.kicad_sch"
+			(at 255.27 136.4746 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "~{SLEEP}" input
+			(at 255.27 128.27 180)
+			(uuid "f373e634-0030-4560-9a4a-685cce0798d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN1" input
+			(at 255.27 130.81 180)
+			(uuid "a7f530fe-dfbf-43bd-b878-49f4d0031e4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN2" input
+			(at 255.27 133.35 180)
+			(uuid "4cd0c913-0a63-4d6c-91cb-a7985264d58c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "cnfx-dc-quad-drv-1"
+				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 255.27 111.76)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a6a99bf9-912b-4a4b-bfcc-d6f5828e45bb")
+		(property "Sheetname" "DC Driver1"
+			(at 255.27 111.0484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dc-drv.kicad_sch"
+			(at 255.27 122.5046 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "~{SLEEP}" input
+			(at 255.27 114.3 180)
+			(uuid "5b8f3dee-e170-4bf6-885b-1c2488e66b96")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN1" input
+			(at 255.27 116.84 180)
+			(uuid "0606cc85-d732-4cef-8b0e-0620673b81d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN2" input
+			(at 255.27 119.38 180)
+			(uuid "383b3ca1-c3c5-4caa-9bdf-d633ff83214e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "cnfx-dc-quad-drv-1"
+				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 255.27 139.7)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "aa2c2548-8674-4401-a7ea-1722f8f03373")
+		(property "Sheetname" "DC Driver3"
+			(at 255.27 138.9884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dc-drv.kicad_sch"
+			(at 255.27 150.4446 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "~{SLEEP}" input
+			(at 255.27 142.24 180)
+			(uuid "85443738-5577-471f-8474-8cac3cd44180")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN1" input
+			(at 255.27 144.78 180)
+			(uuid "ff6a025a-e707-42ef-920d-105b10921878")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN2" input
+			(at 255.27 147.32 180)
+			(uuid "72b2049f-a1a7-4386-bdfa-298478e7e5fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "cnfx-dc-quad-drv-1"
+				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
+					(page "5")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
