@@ -9455,7 +9455,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "002628ff-82fc-45ea-9c52-0564fc96a3d2")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR039"
 			(at 212.09 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -9516,7 +9516,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "#PWR038")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -9805,7 +9805,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "07624793-22b5-466b-898c-27dda299564c")
-		(property "Reference" "H1"
+		(property "Reference" "H4"
 			(at 130.81 150.114 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9866,7 +9866,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "H1")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -9962,7 +9962,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b02bc10-8745-43e1-afef-c2285fa3e405")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR038"
 			(at 208.28 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -10023,7 +10023,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "#PWR037")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -10243,7 +10243,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "130c6bfb-c299-4f51-98a3-1e7770480d50")
-		(property "Reference" "C1"
+		(property "Reference" "C2"
 			(at 41.148 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10351,7 +10351,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "C1")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -10491,7 +10491,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "18bec84f-1445-4ffa-8175-1dec790c8460")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR030"
 			(at 149.86 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -10551,7 +10551,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "#PWR024")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -11229,7 +11229,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "29455f76-99bf-4a1f-b832-fc038c8ad3a0")
-		(property "Reference" "H2"
+		(property "Reference" "H5"
 			(at 135.89 150.114 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11290,7 +11290,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "H2")
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -11307,7 +11307,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2a556f6c-abd4-4d95-8f50-8d0b115ef8cf")
-		(property "Reference" "H4"
+		(property "Reference" "H7"
 			(at 146.05 150.114 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11368,7 +11368,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "H4")
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -11546,7 +11546,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3257d062-02e1-4b65-9605-0bd1c90aad41")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR025"
 			(at 135.89 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -11606,7 +11606,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "#PWR027")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -11953,7 +11953,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4be62597-574d-4d10-8a57-9c84a7c64de1")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR021"
 			(at 82.55 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -12014,7 +12014,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "#PWR019")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -12159,7 +12159,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e5eae6f-17f9-4bd4-9ca4-9b7cd8d375f7")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR011"
 			(at 35.56 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -12220,7 +12220,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "#PWR09")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -12520,7 +12520,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5cb59842-c59a-446b-a7f8-53b26041dfa3")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR024"
 			(at 100.33 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -12581,7 +12581,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "#PWR023")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -12724,7 +12724,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "63c5691e-1e92-4db6-ae2c-2f50035d1e06")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 37.084 98.044 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12833,7 +12833,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -12930,7 +12930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6878c76c-658f-4adf-bbcf-3aa017c9aac8")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR019"
 			(at 72.39 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -12991,7 +12991,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "#PWR017")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -13008,7 +13008,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6b92e2de-06b7-4c52-aa5f-9904d2f11ddf")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR040"
 			(at 232.41 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -13069,7 +13069,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "#PWR039")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -13087,7 +13087,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d35dfa4-a831-469e-bbf3-d08f9b55e366")
-		(property "Reference" "C7"
+		(property "Reference" "C8"
 			(at 138.176 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13195,7 +13195,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "C7")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -13462,7 +13462,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71f86290-bd00-4382-8458-3f5684d6a408")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR029"
 			(at 140.97 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -13523,7 +13523,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "#PWR030")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -13746,7 +13746,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7720ec26-c946-40e0-a6cc-d1b046cb7efa")
-		(property "Reference" "H3"
+		(property "Reference" "H6"
 			(at 140.97 150.114 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13807,7 +13807,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "H3")
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -13826,7 +13826,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7728568f-0abe-4366-a058-a3d38c86623c")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 33.02 160.0199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13935,7 +13935,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -14203,7 +14203,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7bb8451a-93db-4552-8259-8ffea50c539d")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR020"
 			(at 76.2 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -14263,7 +14263,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "#PWR018")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -14281,7 +14281,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c87931f-4b3d-46f4-b27e-f659a32d9eb3")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR031"
 			(at 149.86 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -14342,7 +14342,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "#PWR029")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -14360,7 +14360,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d496766-10bb-4513-860e-e552fa078556")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR014"
 			(at 40.64 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -14421,7 +14421,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "#PWR010")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -14563,7 +14563,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "880aea7e-a454-4ff1-bb88-1ec92bf30295")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR018"
 			(at 72.39 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -14624,7 +14624,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "#PWR050")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -14642,7 +14642,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89b87cf8-547f-4cf1-b495-d4f7dfcd470e")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR035"
 			(at 187.96 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -14703,7 +14703,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "#PWR034")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -14981,7 +14981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e5892e4-9ed9-4f86-a7b7-2ce524714cd0")
-		(property "Reference" "H6"
+		(property "Reference" "H2"
 			(at 113.03 156.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15040,7 +15040,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "H6")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -15345,7 +15345,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9a52421b-d25d-410c-8b74-aa008bb50bc9")
-		(property "Reference" "D6"
+		(property "Reference" "D8"
 			(at 69.088 189.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15464,7 +15464,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "D6")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -15483,7 +15483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d2eb733-e973-4a1f-b523-0761d6ac1011")
-		(property "Reference" "H7"
+		(property "Reference" "H3"
 			(at 113.03 161.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15542,7 +15542,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "H7")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -15559,7 +15559,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d43c340-d566-4ecd-8da3-b905f176ce69")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR026"
 			(at 138.43 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -15619,7 +15619,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "#PWR025")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -15637,7 +15637,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d743a32-c0e9-4b2c-9325-289753f458f9")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR041"
 			(at 243.84 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -15697,7 +15697,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "#PWR061")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -15842,7 +15842,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1886d16-eccb-4bdd-8ab4-a74fdc0a09b6")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR022"
 			(at 85.09 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -15902,7 +15902,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "#PWR020")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -15919,7 +15919,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a5155ff0-1ba3-48fe-ac7a-5be26e89e4a1")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR034"
 			(at 163.83 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -15979,7 +15979,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "#PWR032")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -16852,7 +16852,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ace5f421-147b-40b0-bae3-fdf0bda32002")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR037"
 			(at 208.28 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -16913,7 +16913,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "#PWR036")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -16931,7 +16931,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afe4a948-60cc-4161-a9b3-9645f2fbbfb1")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR027"
 			(at 138.43 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -16992,7 +16992,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "#PWR026")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -17089,7 +17089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b33e0fdb-39d4-45f3-b50b-3750ffc63b01")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR032"
 			(at 160.02 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -17150,7 +17150,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "#PWR033")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -17168,7 +17168,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b3e6cfaf-b6ab-4c11-b124-044987359551")
-		(property "Reference" "C2"
+		(property "Reference" "C1"
 			(at 27.94 112.268 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17274,7 +17274,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "C2")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -17370,7 +17370,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5835c2b-fe5f-48a9-a38f-e1872c64a6ee")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR023"
 			(at 100.33 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -17430,7 +17430,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "#PWR022")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -17649,7 +17649,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b6e5e730-2b00-4fe9-9831-475eca8f4867")
-		(property "Reference" "D7"
+		(property "Reference" "D6"
 			(at 56.388 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17758,7 +17758,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "D7")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -17777,7 +17777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9321a33-3efe-452f-8e86-3c3cc142c1d7")
-		(property "Reference" "H5"
+		(property "Reference" "H1"
 			(at 113.03 151.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17836,7 +17836,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "H5")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -17853,7 +17853,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd1d3249-db75-47f9-9b11-4a2a7c777ed4")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR036"
 			(at 199.39 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -17913,7 +17913,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "#PWR035")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -18056,7 +18056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c52d0c49-6479-4a1c-aa95-e3ef92513473")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR016"
 			(at 60.96 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -18117,7 +18117,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "#PWR015")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -18135,7 +18135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8e3a805-86eb-47cf-99e9-4e6d8247e0bd")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR09"
 			(at 30.48 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -18196,7 +18196,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "#PWR011")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -18294,7 +18294,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd4a0fe0-42ae-4a3f-8901-f499dee14699")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR033"
 			(at 161.29 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -18355,7 +18355,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "#PWR031")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -18372,7 +18372,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce90732c-69e3-469c-9243-355e6fe7d1fb")
-		(property "Reference" "D8"
+		(property "Reference" "D7"
 			(at 62.738 97.536 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18481,7 +18481,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "D8")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -18858,7 +18858,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e18ea7fd-5ec6-4df9-9554-b2f9052207a6")
-		(property "Reference" "C8"
+		(property "Reference" "C7"
 			(at 134.62 185.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18966,7 +18966,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "C8")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -18984,7 +18984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e477a987-bad1-4fd2-9fdf-762fc0d8214f")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR017"
 			(at 66.04 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -19045,7 +19045,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "#PWR016")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -19349,7 +19349,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee38f085-36ac-4136-bb7d-ada675888af2")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR015"
 			(at 53.34 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -19410,7 +19410,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "#PWR014")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -20121,7 +20121,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffd04b9e-1970-42ef-aaa4-01c167d553a6")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR010"
 			(at 35.56 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -20182,7 +20182,7 @@
 		(instances
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "#PWR021")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
