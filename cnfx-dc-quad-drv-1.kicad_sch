@@ -4267,7 +4267,7 @@
 					(alternate "USART3_RTS" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -17.78 -33.02 0)
+					(at -17.78 -15.24 0)
 					(length 2.54)
 					(name "PB15"
 						(effects
@@ -4618,7 +4618,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -15.24 0)
+					(at -17.78 -33.02 0)
 					(length 2.54)
 					(name "PB8"
 						(effects
@@ -6417,12 +6417,6 @@
 		(uuid "dd333b3b-2819-4585-9663-12f25de5468b")
 	)
 	(junction
-		(at 187.96 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "def74e1a-a2b0-478e-bf9a-cd02f7fbb4e9")
-	)
-	(junction
 		(at 30.48 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6473,10 +6467,6 @@
 	(no_connect
 		(at 36.83 54.61)
 		(uuid "24df36e8-b8ad-4a91-a51c-99c5482f0ae0")
-	)
-	(no_connect
-		(at 168.91 114.3)
-		(uuid "2504bf34-9577-4866-a06f-3a2799c2c1d7")
 	)
 	(no_connect
 		(at 168.91 86.36)
@@ -8330,7 +8320,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 57.15) (xy 184.15 57.15)
+			(xy 180.34 57.15) (xy 184.15 57.15)
 		)
 		(stroke
 			(width 0)
@@ -8480,6 +8470,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 114.3) (xy 168.91 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdbf8f38-18bd-4d98-9dbe-f7325eac3167")
+	)
+	(wire
+		(pts
 			(xy 161.29 86.36) (xy 160.02 86.36)
 		)
 		(stroke
@@ -8587,16 +8587,6 @@
 			(type default)
 		)
 		(uuid "d759fb58-0703-43ef-8b59-4ad8d4fbb6d9")
-	)
-	(wire
-		(pts
-			(xy 187.96 140.97) (xy 189.23 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7996271-5a3c-480c-ab3f-609c31c45e53")
 	)
 	(wire
 		(pts
@@ -9407,6 +9397,16 @@
 			(justify right bottom)
 		)
 		(uuid "a5133d9e-be3a-4103-a170-add3c3053d96")
+	)
+	(label "IN1_3"
+		(at 160.02 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a7045a5b-a96d-41d3-b6ea-3f29982cfed2")
 	)
 	(label "CANH"
 		(at 48.26 127 0)
@@ -16290,6 +16290,7 @@
 		)
 		(pin "45"
 			(uuid "f559f301-178d-4eb0-a368-3a600e60b6cb")
+			(alternate "TIM4_CH3")
 		)
 		(pin "28"
 			(uuid "5af4ee4b-a413-4f49-a609-338c7ee7082a")
