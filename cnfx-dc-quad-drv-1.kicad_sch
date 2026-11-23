@@ -6522,12 +6522,6 @@
 		(color 0 0 0 0)
 		(uuid "fafbe780-89f1-40ad-bf0f-9576fcca586a")
 	)
-	(junction
-		(at 142.24 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe7dddf6-34c5-4a36-bd89-01ac7f1fdd41")
-	)
 	(no_connect
 		(at 168.91 127)
 		(uuid "15156950-9815-46d0-bc77-42aa1e95896e")
@@ -7095,16 +7089,6 @@
 			(type default)
 		)
 		(uuid "33dba282-24fc-4e39-8628-c9b6eb0eaffb")
-	)
-	(wire
-		(pts
-			(xy 137.16 158.75) (xy 142.24 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34940f0d-eb16-4b71-b283-57cf1d1186af")
 	)
 	(wire
 		(pts
@@ -7998,16 +7982,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 158.75) (xy 142.24 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f43bf82-f550-470d-b17a-01efeae454ec")
-	)
-	(wire
-		(pts
 			(xy 237.49 63.5) (xy 237.49 53.34)
 		)
 		(stroke
@@ -8758,7 +8732,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 158.75) (xy 147.32 158.75)
+			(xy 137.16 158.75) (xy 147.32 158.75)
 		)
 		(stroke
 			(width 0)
@@ -14011,84 +13985,6 @@
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
 					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 142.24 154.94 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7720ec26-c946-40e0-a6cc-d1b046cb7efa")
-		(property "Reference" "H6"
-			(at 140.97 150.114 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 146.05 153.67 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 142.24 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 142.24 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9a268ada-5be3-4468-812e-42d11383d750")
-		)
-		(instances
-			(project "cnfx-dc-quad-drv-1"
-				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "H6")
 					(unit 1)
 				)
 			)
