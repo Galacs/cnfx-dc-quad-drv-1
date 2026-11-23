@@ -23252,19 +23252,6 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "A"
-		(at 101.113591 114.090148 0)
-		(layer "F.SilkS" knockout)
-		(uuid "8f3fdd44-e612-44ba-b513-196b66a4a4f8")
-		(effects
-			(font
-				(size 1.1 1.1)
-				(thickness 0.22)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "BT"
 		(at 144.203092 79.590214 0)
 		(layer "F.SilkS" knockout)
