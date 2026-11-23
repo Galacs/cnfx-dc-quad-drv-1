@@ -4655,102 +4655,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:Fiducial"
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "FID"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Fiducial"
-				(at 0 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Fiducial Marker"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "fiducial marker"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Fiducial*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Fiducial_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -6000,7 +5904,7 @@
 		(uuid "a799ed78-3205-4f3f-89cd-b587c30403de")
 	)
 	(rectangle
-		(start 93.98 147.32)
+		(start 93.98 153.67)
 		(end 124.46 167.64)
 		(stroke
 			(width 0)
@@ -10060,84 +9964,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:Fiducial")
-		(at 105.41 151.13 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a60f814-1b33-4825-8295-d864c2cf512e")
-		(property "Reference" "FID1"
-			(at 102.87 151.1299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Fiducial"
-			(at 102.87 152.3999 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 105.41 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Fiducial Marker"
-			(at 105.41 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "cnfx-dc-quad-drv-1"
-				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "FID1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 208.28 125.73 0)
 		(unit 1)
@@ -12534,84 +12360,6 @@
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:Fiducial")
-		(at 105.41 156.21 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a130ba7-d66f-4f0b-a828-628f57bbe1d2")
-		(property "Reference" "FID2"
-			(at 102.87 156.2099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Fiducial"
-			(at 102.87 157.4799 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 105.41 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Fiducial Marker"
-			(at 105.41 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "cnfx-dc-quad-drv-1"
-				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "FID2")
 					(unit 1)
 				)
 			)
@@ -15147,7 +14895,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 115.57 156.21 0)
+		(at 109.22 160.02 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -15156,10 +14904,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8e5892e4-9ed9-4f86-a7b7-2ce524714cd0")
 		(property "Reference" "H2"
-			(at 113.03 156.2099 0)
+			(at 110.744 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15170,7 +14917,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 113.03 157.4799 0)
+			(at 106.68 161.2899 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15182,7 +14929,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:ToolingHole_1.152mm"
-			(at 115.57 156.21 0)
+			(at 109.22 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15193,7 +14940,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 156.21 0)
+			(at 109.22 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15204,7 +14951,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 115.57 156.21 0)
+			(at 109.22 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15693,7 +15440,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 115.57 161.29 0)
+		(at 115.57 160.02 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -15702,10 +15449,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9d2eb733-e973-4a1f-b523-0761d6ac1011")
 		(property "Reference" "H3"
-			(at 113.03 161.2899 0)
+			(at 117.094 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15716,7 +15462,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 113.03 162.5599 0)
+			(at 113.03 161.2899 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15728,7 +15474,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:ToolingHole_1.152mm"
-			(at 115.57 161.29 0)
+			(at 115.57 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15739,7 +15485,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 161.29 0)
+			(at 115.57 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15750,7 +15496,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 115.57 161.29 0)
+			(at 115.57 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17028,84 +16774,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:Fiducial")
-		(at 105.41 161.29 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aca602b4-fce8-4e19-a825-dc76eece1b6c")
-		(property "Reference" "FID3"
-			(at 102.87 161.2899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Fiducial"
-			(at 102.87 162.5599 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 105.41 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Fiducial Marker"
-			(at 105.41 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "cnfx-dc-quad-drv-1"
-				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
-					(reference "FID3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 208.28 58.42 0)
 		(unit 1)
@@ -17908,7 +17576,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 115.57 151.13 0)
+		(at 101.6 160.02 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -17917,10 +17585,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b9321a33-3efe-452f-8e86-3c3cc142c1d7")
 		(property "Reference" "H1"
-			(at 113.03 151.1299 0)
+			(at 103.124 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17931,7 +17598,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 113.03 152.3999 0)
+			(at 99.06 161.2899 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17943,7 +17610,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:ToolingHole_1.152mm"
-			(at 115.57 151.13 0)
+			(at 101.6 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17954,7 +17621,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 151.13 0)
+			(at 101.6 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17965,7 +17632,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 115.57 151.13 0)
+			(at 101.6 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
