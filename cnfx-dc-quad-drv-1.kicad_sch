@@ -1106,6 +1106,183 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Crystal"
 			(pin_numbers
 				(hide yes)
@@ -6094,6 +6271,12 @@
 		(uuid "4f747b06-e7c1-49e2-a191-f4288dbd3f56")
 	)
 	(junction
+		(at 80.01 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54b1c81c-8f7d-488d-a85c-bb0144e7d680")
+	)
+	(junction
 		(at 170.18 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6130,7 +6313,13 @@
 		(uuid "71fa5ccb-a64c-446b-9378-bfe5f3d7feeb")
 	)
 	(junction
-		(at 82.55 154.94)
+		(at 85.09 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75122ecb-4be3-4e86-a54a-53ad036316b2")
+	)
+	(junction
+		(at 80.01 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7bcc4475-d287-4705-8847-f1b0a86422c2")
@@ -6436,6 +6625,16 @@
 			(type default)
 		)
 		(uuid "0628467f-88c5-4db6-843f-c4c43ab72032")
+	)
+	(wire
+		(pts
+			(xy 80.01 165.1) (xy 85.09 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0701a7c2-b390-4fde-a8d4-3db39d0a69d1")
 	)
 	(wire
 		(pts
@@ -6779,6 +6978,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 154.94) (xy 87.63 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bdba141-0c61-43cf-9008-e450dfbb4f1a")
+	)
+	(wire
+		(pts
 			(xy 101.6 175.26) (xy 100.33 175.26)
 		)
 		(stroke
@@ -6949,7 +7158,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 154.94) (xy 82.55 156.21)
+			(xy 80.01 154.94) (xy 80.01 156.21)
 		)
 		(stroke
 			(width 0)
@@ -7496,6 +7705,16 @@
 			(type default)
 		)
 		(uuid "6b81ac3d-5b19-43a0-a5f7-43a5139b9dfc")
+	)
+	(wire
+		(pts
+			(xy 80.01 165.1) (xy 80.01 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d8fccd8-32bd-4ab6-b25b-ceef286456ee")
 	)
 	(wire
 		(pts
@@ -8369,7 +8588,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 153.67) (xy 85.09 154.94)
+			(xy 87.63 153.67) (xy 87.63 154.94)
 		)
 		(stroke
 			(width 0)
@@ -8779,13 +8998,23 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 163.83) (xy 82.55 165.1)
+			(xy 80.01 163.83) (xy 80.01 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f54d3ffa-78dd-41c5-a68e-ac310f47db56")
+	)
+	(wire
+		(pts
+			(xy 85.09 163.83) (xy 85.09 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f70c1e77-750a-4d5a-96e8-dbf170e12124")
 	)
 	(wire
 		(pts
@@ -8826,6 +9055,16 @@
 			(type default)
 		)
 		(uuid "fcccbd58-4d18-43d7-8bf0-44769b8f3602")
+	)
+	(wire
+		(pts
+			(xy 85.09 154.94) (xy 85.09 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe7ba426-f91a-4ee1-a90c-1b34c1b6c69d")
 	)
 	(wire
 		(pts
@@ -11838,7 +12077,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 82.55 165.1 0)
+		(at 80.01 166.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11849,7 +12088,7 @@
 		(fields_autoplaced yes)
 		(uuid "4be62597-574d-4d10-8a57-9c84a7c64de1")
 		(property "Reference" "#PWR021"
-			(at 82.55 171.45 0)
+			(at 80.01 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11860,7 +12099,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 82.55 170.18 0)
+			(at 80.01 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11871,7 +12110,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 165.1 0)
+			(at 80.01 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11882,7 +12121,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 165.1 0)
+			(at 80.01 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11893,7 +12132,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 165.1 0)
+			(at 80.01 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12484,7 +12723,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 82.55 160.02 0)
+		(at 80.01 160.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12492,10 +12731,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5dc6fb8f-710b-4200-a2cf-c51f4323c4ab")
 		(property "Reference" "C5"
-			(at 86.36 158.7499 0)
+			(at 76.962 150.368 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12506,7 +12744,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 86.36 161.2899 0)
+			(at 76.962 152.908 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12517,7 +12755,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 83.5152 163.83 0)
+			(at 80.9752 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12528,7 +12766,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 160.02 0)
+			(at 80.01 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12539,7 +12777,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 82.55 160.02 0)
+			(at 80.01 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12550,7 +12788,7 @@
 			)
 		)
 		(property "Basic" "Y"
-			(at 82.55 160.02 90)
+			(at 80.01 160.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12561,7 +12799,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C45783"
-			(at 82.55 160.02 90)
+			(at 80.01 160.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12572,7 +12810,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics "
-			(at 82.55 160.02 90)
+			(at 80.01 160.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12583,7 +12821,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL21A226MAQNNNE"
-			(at 82.55 160.02 90)
+			(at 80.01 160.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12603,6 +12841,154 @@
 			(project "cnfx-dc-quad-drv-1"
 				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 85.09 160.02 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5ec6f29e-8a4d-4645-93d2-06cd11b80128")
+		(property "Reference" "C30"
+			(at 85.852 163.068 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150u"
+			(at 85.852 165.608 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+			(at 84.1248 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 85.09 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Basic" "X"
+			(at 85.09 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C178603"
+			(at 85.09 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "PANASONIC"
+			(at 85.09 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "EEEFTV151XAP"
+			(at 85.09 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 85.09 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 85.09 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "61f7364b-91d6-4c43-923c-7cbfbd835138")
+		)
+		(pin "1"
+			(uuid "6d8471b0-2a0f-43d8-ad13-5d70e7cdf319")
+		)
+		(instances
+			(project "cnfx-dc-quad-drv-1"
+				(path "/aef79a18-e7b7-40da-91e1-60d9e010fbd4"
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -15771,7 +16157,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 85.09 153.67 0)
+		(at 87.63 153.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15779,10 +16165,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a1886d16-eccb-4bdd-8ab4-a74fdc0a09b6")
 		(property "Reference" "#PWR022"
-			(at 85.09 157.48 0)
+			(at 87.63 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15793,7 +16178,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 85.09 148.59 0)
+			(at 86.614 149.352 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15803,7 +16188,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 153.67 0)
+			(at 87.63 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15814,7 +16199,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 153.67 0)
+			(at 87.63 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15825,7 +16210,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 85.09 153.67 0)
+			(at 87.63 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19730,10 +20115,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fec0e33f-35f2-4f81-9441-d77ca5cdc160")
 		(property "Reference" "R4"
-			(at 74.93 158.7499 0)
+			(at 74.168 159.258 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19744,7 +20128,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 74.93 161.2899 0)
+			(at 74.168 161.798 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
